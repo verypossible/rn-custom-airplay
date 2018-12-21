@@ -1,0 +1,19 @@
+
+{
+  "name": "rn-custom-airplay",
+  "version": "1.0.0",
+  "description": "A module for adding airplay functionality to an app including icon, icon color, and status events.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native",
+    "airplay"
+  ],
+  "author": "Very",
+  "license": "MIT",
+  "peerDependencies": {
+    "react-native": "^0.41.2"
+  }
+}
