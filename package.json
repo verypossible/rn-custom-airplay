@@ -2,7 +2,7 @@
 {
   "name": "rn-custom-airplay",
   "version": "1.0.0",
-  "description": "A module for adding airplay functionality to an app including icon, icon color, and status events.",
+  "description": "A React Native package for adding airplay functionality to an app including icon, icon color, and status events.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,7 +11,17 @@
     "react-native",
     "airplay"
   ],
-  "author": "Very",
+  "author": "Very (https://www.verypossible.com)",
+  "contributors": [
+    {
+      "name": "Jacob Arellano",
+      "email": "jacob@verypossible.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:verypossible/rn-custom-airplay.git"
+  },
   "license": "MIT",
   "peerDependencies": {
     "react-native": "^0.41.2"
