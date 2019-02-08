@@ -20,7 +20,7 @@ export default class App extends Component<Props> {
   }
 
   componentDidMount() {
-    this.airplayConnected = AirplayListener.addListener("airplayConnected", devices => this.setState({airplayConnected: devices.connected}, () => console.log(devices.connected)));
+    this.airplayConnected = AirplayListener.addListener("airplayConnected", devices => this.setState({airplayConnected: devices.connected}));
     Airplay.startScan();
   }
 
@@ -31,7 +31,7 @@ export default class App extends Component<Props> {
 
   render() {
     return (
-      <AirplayButton tintColor={this.state.airplayConnected ? "#29dfee" : "#d3d3d3"} style={{marginTop: 100}} />
+      <AirplayButton image={require("./icon.png")} tintColor={this.state.airplayConnected ? "#29dfee" : "#d3d3d3"} style={{marginTop: 100}} />
     );
   }
 }

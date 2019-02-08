@@ -36,9 +36,9 @@
 		2D16E6881FA4F8E400B85C8A /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D16E6891FA4F8E400B85C8A /* libReact.a */; };
 		2DCD954D1E0B4F2C00145EB5 /* ExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ExampleTests.m */; };
 		2DF0FFEE2056DD460020B375 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3EA31DF850E9000B6D8A /* libReact.a */; };
+		3F9106290BFF487EB3852E10 /* libRNCustomAirplay.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 652C65D49D7D4AF9B13AF397 /* libRNCustomAirplay.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
-		B943EB928E7E414093703A70 /* libRNCustomAirplay.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E780079CF4AB4F82AAF22CBB /* libRNCustomAirplay.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -301,9 +301,9 @@
 			remoteGlobalIDString = 134814201AA4EA6300B7C361;
 			remoteInfo = RCTLinking;
 		};
-		7E22764121CAFED700482F7F /* PBXContainerItemProxy */ = {
+		7EA216F7220DEB790076D611 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = A775FBE1A97044FCB1D2C201 /* RNCustomAirplay.xcodeproj */;
+			containerPortal = B4C1080FD47A432AB9B13E73 /* RNCustomAirplay.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 134814201AA4EA6300B7C361;
 			remoteInfo = RNCustomAirplay;
@@ -348,11 +348,11 @@
 		2D02E4901E0B4A5D006451C7 /* Example-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Example-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D16E6891FA4F8E400B85C8A /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
+		652C65D49D7D4AF9B13AF397 /* libRNCustomAirplay.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNCustomAirplay.a; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
-		A775FBE1A97044FCB1D2C201 /* RNCustomAirplay.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNCustomAirplay.xcodeproj; path = "../node_modules/rn-custom-airplay/ios/RNCustomAirplay.xcodeproj"; sourceTree = "<group>"; };
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
-		E780079CF4AB4F82AAF22CBB /* libRNCustomAirplay.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNCustomAirplay.a; sourceTree = "<group>"; };
+		B4C1080FD47A432AB9B13E73 /* RNCustomAirplay.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNCustomAirplay.xcodeproj; path = "../node_modules/rn-custom-airplay/ios/RNCustomAirplay.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -380,7 +380,7 @@
 				832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */,
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
-				B943EB928E7E414093703A70 /* libRNCustomAirplay.a in Frameworks */,
+				3F9106290BFF487EB3852E10 /* libRNCustomAirplay.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -555,15 +555,15 @@
 		7E22761821CAFED600482F7F /* Recovered References */ = {
 			isa = PBXGroup;
 			children = (
-				E780079CF4AB4F82AAF22CBB /* libRNCustomAirplay.a */,
+				652C65D49D7D4AF9B13AF397 /* libRNCustomAirplay.a */,
 			);
 			name = "Recovered References";
 			sourceTree = "<group>";
 		};
-		7E22763E21CAFED700482F7F /* Products */ = {
+		7EA216F4220DEB790076D611 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7E22764221CAFED700482F7F /* libRNCustomAirplay.a */,
+				7EA216F8220DEB790076D611 /* libRNCustomAirplay.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -583,7 +583,7 @@
 				832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */,
 				00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */,
 				139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */,
-				A775FBE1A97044FCB1D2C201 /* RNCustomAirplay.xcodeproj */,
+				B4C1080FD47A432AB9B13E73 /* RNCustomAirplay.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -796,8 +796,8 @@
 					ProjectRef = 146833FF1AC3E56700842450 /* React.xcodeproj */;
 				},
 				{
-					ProductGroup = 7E22763E21CAFED700482F7F /* Products */;
-					ProjectRef = A775FBE1A97044FCB1D2C201 /* RNCustomAirplay.xcodeproj */;
+					ProductGroup = 7EA216F4220DEB790076D611 /* Products */;
+					ProjectRef = B4C1080FD47A432AB9B13E73 /* RNCustomAirplay.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -1056,11 +1056,11 @@
 			remoteRef = 78C398B81ACF4ADC00677621 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		7E22764221CAFED700482F7F /* libRNCustomAirplay.a */ = {
+		7EA216F8220DEB790076D611 /* libRNCustomAirplay.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libRNCustomAirplay.a;
-			remoteRef = 7E22764121CAFED700482F7F /* PBXContainerItemProxy */;
+			remoteRef = 7EA216F7220DEB790076D611 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		832341B51AAA6A8300B99B32 /* libRCTText.a */ = {
